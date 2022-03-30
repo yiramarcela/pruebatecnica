@@ -83,7 +83,6 @@ const mapStateToProps = (state: IState) => {
     selectedPlace: places.selectedPlace,
   };
 };
-
 const mapDispatchToProps = (dispatch: any) => {
   return {
     togglePreview: (payload: boolean) =>
